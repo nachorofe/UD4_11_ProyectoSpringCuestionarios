@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Listado</title>
+</head>
+<body>
+
+<!-- Título dinámico -->
+<h1 th:text="${titulo}">Título por defecto</h1>
+
+<!-- Mostrar contenido de la variable 'preguntas' para depuración -->
+<p th:text="${preguntas}">Sin preguntas</p>
+
+<!-- Lista de preguntas -->
+<ul th:each="pregunta : ${preguntas}">
+    <li>
+        <span th:text="${pregunta.enunciado}">Texto de ejemplo</span>
+        <a th:href="@{/preguntas/{id}(id=${pregunta.id})}">Ver detalle</a>
+    </li>
+</ul>
+
+</body>
+</html>
+
+
