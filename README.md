@@ -26,6 +26,10 @@ Este proyecto es una aplicación web desarrollada con Spring Boot que permite cr
 5. Compila ejecuta al archivo AppPreguntasApplication.java disponible en la ruta src/main/resources/org/dam
 6. Para probar los distintos métodos, puedes utilizar Postman. En las capturas se pueden ver ejemplos de los métodos que puedes probar
 
+## Documentación adicional
+
+En la carpeta screenshots se incluyen capturas de pruebas con Postman
+
 ## Consideraciones
 
 Implementado hasta 05. Pruebas y mejoras con capa de servicio. Thymeleaf implementado parcialmente, pendiente de terminar.
