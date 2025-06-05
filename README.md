@@ -2,6 +2,10 @@
 
 Este proyecto es una aplicación web desarrollada con Spring Boot que permite crear, consultar y gestionar preguntas del tipo "Cuestión" (una sola respuesta) y "test" (varias opciones de respuesta).
 
+## URL del repositorio
+
+https://github.com/nachorofe/UD4_11_ProyectoSpringCuestionarios/
+
 ## Funcionalidades
 
 - Crear preguntas de tipo test o cuestión.
